@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url("./img/background.png") no-repeat fixed;
+    font-family: "chalkboard";
+}
+
+div.title{
+    font-family: "American Typewriter";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 70px;
+    color: #FFEBCD;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+label{
+    font-size: 20px;
+}
+
+div.logout{
+    margin-left: 1150px;
+}
+
+div.logout a{
+    color: #4682B4;
+    font-size: 18px;
+}
+
+div.logout a:link{
+    font-size: 18px;
+}
+
+div.logout a:hover{
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+div.liststyle{
+    width: 1000px;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid #4682B4;
+}
+
+th{
+    border-bottom: 3px solid #B0C4DE;
+    height: 50px;
+    background-color: #87CEFA;
+    font-size: 20px;
+    color: #F5F5F5;
+}
+
+td{
+    border-bottom: 2px dotted #D2B48C;
+    height: 30px;
+    font-size: 18px;
+    color: #778899;
+}
+
+td.style1 a{
+    width: 700px;
+    text-decoration: none;
+}
+
+td a{
+    color: #778899;
+}
+
+td a:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+tr:hover {background-color: #FFEFD5;}
+
+div.upload{
+    margin-top: 60px;
+    margin-left: 200px;
+    color: 	#191970;
+}
+div.upload button.button{
+    padding: 7px 14px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #008CBA;
+    border: 2px solid white;
+}
+.error{
+    color: #FF7F50;
+}

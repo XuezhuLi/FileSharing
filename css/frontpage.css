@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.error{
+    font-family: "American Typewriter";
+    font-size: 15px;
+    color: #FF0000;
+    margin-left: 120px;
+}
+
+/*table{
+    width: 800px;
+    border-collapse: collapse;
+    
+}*/
+
+div.login{
+    background: url("./img/login.png") no-repeat right center;
+    border: 5px solid #F08080;
+}
+
+div.sign{
+    background: url("./img/sign.png") no-repeat right center;
+    border: 5px solid #E6E6FA;
+}
+
+div.login, div.sign{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 400px;
+}
+
+div.formstyle{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+div.textstyle{
+    font-size: 20px;
+    font-family: "American Typewriter";
+    color: #778899;
+}
+
+div input.text{
+    height: 25px;
+    color: #4682B4;
+    font-size: 15px;
+}
+
+div.buttonstyle{
+    margin-top: 30px;
+}
+
+div button.button{
+    color: white;
+    background-color: #008CBA;
+}
+div button.button2{
+    color: #DC143C;
+    background-color: #FFC0CB;
+}
+
+div button.button, div button.button2{
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+div button.button, div button.button2, div input.text{
+    font-family: "chalkboard";
+}
